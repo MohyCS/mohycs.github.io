@@ -7,7 +7,9 @@ import {
 } from "react-icons/ai"
 
 import {
-  FaTiktok
+  FaDiscord,
+  FaTiktok,
+  FaCoffee
 } from "react-icons/fa"
 
 // TODO: Add TikTok, Medium links
@@ -76,6 +78,28 @@ const Footer = () => {
             target="_blank"
           >
             <AiOutlineMedium
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={32}
+            />
+          </a>
+
+          <a
+            href="https://discord.gg/6pxEPjVDsT"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FaDiscord
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={32}
+            />
+          </a>
+
+          <a
+            href="https://www.buymeacoffee.com/mohycs"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FaCoffee
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={32}
             />
