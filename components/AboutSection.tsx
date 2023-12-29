@@ -47,7 +47,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              The transition was tricky due to the technical interview process, but eventually I had <span className="font-bold">"cracked"</span> it.
+              The transition was tricky due to the technical interview process, but eventually I had <span className="font-bold"> &quot;cracked&quot;</span> it.
                With the first FAANG offer accepted, I mentored and helped fellows ace their interviews.
             </p>
             
