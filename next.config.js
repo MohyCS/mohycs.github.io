@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
   images: {
     domains: ['miro.medium.com'],
+  },
+  experimental: {
+    appDir: true,
   },
   exportPathMap: async function (
     defaultPathMap,
