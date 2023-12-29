@@ -51,7 +51,7 @@ const Footer = () => {
             />
           </a> */}
           <a
-            href="https://www.youtube.com/channel/UCQBMkSDgbxDb8usMeXmOZyA"
+            href="https://www.youtube.com/channel/UCsUdhcyaYDB25xXBYukDw7A"
             rel="noreferrer"
             target="_blank"
           >
