@@ -6,6 +6,14 @@ const nextConfig = {
   images: {
     domains: ['miro.medium.com'],
   },
+  exportPathMap: async function (
+    defaultPathMap,
+    { home }
+  ) {
+    return {
+      '/': { page: '/' },
+    }
+  },
 }
 
 module.exports = nextConfig
