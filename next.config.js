@@ -1,10 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    unoptimized: true,
-  },
-  experimental: {
-    appDir: true,
+    domains: ['miro.medium.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'miro.medium.com',
+        port: '',
+        pathname: '/',
+      },
+    ]
   },
   exportPathMap: async function (
     defaultPathMap,
