@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
   images: {
-    domains: ['miro.medium.com'],
+    unoptimized: true,
   },
   experimental: {
     appDir: true,
